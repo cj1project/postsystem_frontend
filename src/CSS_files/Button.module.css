@@ -1,0 +1,45 @@
+.login_reg {
+	width: auto;
+	height: 40px;
+	border-radius: 5px;
+	background-color: rgb(113, 126, 184);
+	opacity: 1;
+	margin: 10px 0;
+	padding: 0 20px;
+	font-size: 16px;
+	font-weight: 700;
+	color: white;
+}
+.login_reg:hover {
+cursor: pointer;
+}
+.logout {
+	font-size: 16px;
+	text-decoration: none;
+	color: #fff;
+	background-color: rgb(113, 126, 184);
+	border: none;
+	padding: 0;
+	margin: 5px 20px 0;
+	outline: 0;
+	border: none;
+	-moz-outline-style: none;
+	height: auto;
+	line-height: 16px;
+}
+.close {
+	width: auto;
+	border-radius: 5px;
+	background-color: rgb(113, 126, 184);
+	margin: 10px 0;
+	padding: 0 20px;
+	font-weight: 700;
+	font-size: 16px;
+	background-color: rgb(113, 126, 184);
+	color: #fff;
+	border: none;
+
+}
+.logout:hover {
+	cursor: pointer;
+}

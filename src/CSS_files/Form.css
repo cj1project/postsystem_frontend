@@ -1,0 +1,84 @@
+.input-box {
+	margin: 25px;
+	padding: 10px 30px 20px 30px;
+	border-radius: 25px;
+	background-color: #f5f5f5;
+	height: auto;
+}
+.flex-center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.input-field {
+	display: flex;
+	justify-content: center;
+	margin: 10px 0;
+}
+
+label {
+	color: #000000;
+	font-weight: 600;
+	margin-right: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	width: 100px;
+	font-size: 14px;
+}
+input {
+	height: 15px;
+	width: 120px;
+	background-color: #f5f5f5;
+	padding: 5px;
+}
+.button-div {
+	display: flex;
+	justify-content: center;
+}
+.check {
+	display: flex;
+	flex-direction: column;
+}
+.pHome {
+	font-size: 20px;
+}
+.historyList {
+	list-style-type: none;
+	width: auto;
+	height: auto;
+	background-color: rgb(253, 159, 163);
+	padding: 10px;
+	margin: 10px;
+	border-radius: 4px;
+}
+.historyUl {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+.historyImage {
+	width: 500px;
+	height: 500px;
+	transform: rotate(90deg);
+}
+.historyImageBig {
+	transform: rotate(90deg);
+	width: 700px;
+	height: 700px;
+}
+
+.histCardBigTop {
+	display: flex;
+	justify-content: space-between;
+}
+@media only screen and (max-width: 500px) {
+	.historyImage {
+		width: 200px;
+		height: 200px;
+	}
+	.historyImageBig {
+		width: 350px;
+		height: 350px;
+	}
+}

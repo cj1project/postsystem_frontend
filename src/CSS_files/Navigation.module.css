@@ -1,0 +1,59 @@
+.header {
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(113, 126, 184);
+}
+.Logo {
+	height: 100px;
+	width: 100px;
+	margin: 20px 20px 0 20px;
+}
+.ToolbarText {
+	display: flex;
+	align-items: center;
+	color: white;
+	font-size: 24px;
+	margin: 20px 20px 0 20px;
+}
+.logo_welcome {
+	display: flex;
+	flex-direction: row;
+}
+.navigation {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.navigation_list {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	padding-inline-start: 0;
+}
+.NavigationItem {
+	margin: 10px;
+	text-decoration: none;
+	color: white;
+}
+.NavigationItemHome {
+	font-size: 22px;
+	font-weight: 700;
+	text-decoration: none;
+	margin: 20px 0;
+}
+.slashHome {
+	font-size: 22px;
+	font-weight: 700;
+	text-decoration: none;
+	margin: 0;
+}
+
+.NavigationItem_active {
+	margin: 10px;
+	text-decoration: underline;
+	color: white;
+}
+.slash {
+	color: white;
+	margin: 0;
+}
